@@ -4,20 +4,21 @@
 using namespace std; 
 int TrapRainWater(int arr[],int n){
     int trap=0;
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[j]<arr[i]){
-                trap+=arr[j];
-            }
-            if(arr[j]==0){
-                trap+=arr[i];
-            }
+    for(int i=1;i<n-1;i++){
+        int left=arr[i];
+        for(int j=0;j<i;j++){
+            left=max(left,arr[j]);
         }
+        int right=arr[i];
+        for(int j=i+1;j<n;j++){
+            right=max(right,arr[j]);
+        }
+        trap=trap+(min(left,right)-arr[i]);
     }
     return trap;
 }
 int main(){
-    int arr[]={5,0,6,2,3};
+    int arr[]={0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
     int n=sizeof(arr)/sizeof(arr[0]);
     cout<<TrapRainWater(arr,n);
     return 0;
