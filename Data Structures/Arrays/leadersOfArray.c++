@@ -20,4 +20,5 @@ int main(){
     return 0;
 }
 
+//output : 2 5 6 10
 //time complexity : O(n)
