@@ -18,5 +18,8 @@ int main(){
     int n=sizeof(arr)/sizeof(arr[0]);
     cout<<countInversions(arr,n);
     return 0;
-
 }
+//output : 2 
+//input : {8,4,2,1}
+//output : 6 
+//(8,4),(8,2),(8,1),(4,2),(4,1),(2,1)
