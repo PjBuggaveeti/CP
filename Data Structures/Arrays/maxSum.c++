@@ -14,8 +14,11 @@ int maxSum(int arr[], int n){
     return max(incl,excl);
 }
 int main(){
-    int arr[]={5, 5, 10, 100, 10, 5};
+    int arr[]={1,2,3,4,5,6};
     int n=sizeof(arr)/sizeof(arr[0]);
     cout<<maxSum(arr,n);
     return 0;
 }
+
+//output : 12
+//time complexity : O(n)
