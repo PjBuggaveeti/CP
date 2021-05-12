@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std; 
 #define NA -1
-void moveToEnd(int arr[], int size){
+void moveToEnd(int arr[], int size){    //move all the elements of the array to end. 
     int j=size-1;
     for(int i=size-1;i>=0;i--){
         if(arr[i]!= NA){
@@ -12,10 +12,10 @@ void moveToEnd(int arr[], int size){
         }   
     }
 }
-void merge(int arr[],int arr2[],int m,int n){
-    int i=n;
+void merge(int arr[],int arr2[],int m,int n){  
+    int i=n;  
     int j=0;
-    int k=0;
+    int k=0;   //index of output array 
     while (k < (m + n))
    {
     if ((j == n)||(i < (m + n) && arr[i] <=arr2[j]))
