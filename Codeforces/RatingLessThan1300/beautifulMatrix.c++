@@ -13,7 +13,7 @@ int main(){
             }
         }
     }
-    int res=abs(x-3)+abs(y-3);
+    int res=abs(x-3)+abs(y-3);    //since we need the element to be in third row and third column
     cout<<res;
     return 0;
 }
