@@ -17,3 +17,10 @@ int main(){
     cout<<res;
     return 0;
 }
+//input
+/*0 0 0 0 0
+0 0 0 0 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0 */
+//output : 3
