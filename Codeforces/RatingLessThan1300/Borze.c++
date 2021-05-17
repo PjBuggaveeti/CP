@@ -22,3 +22,7 @@ int main(){
     cout<<s2;
     return 0;
 }
+/* 
+input : -..-.--
+output : 1012
+*/
