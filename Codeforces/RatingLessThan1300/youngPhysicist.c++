@@ -20,5 +20,10 @@ int main(){
     }
     
     return 0;
-
 }
+//input
+/*3
+4 1 7
+-2 4 -1
+1 -5 -3 */
+//output : NO
