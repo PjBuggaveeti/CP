@@ -17,3 +17,8 @@ int main(){
     }
     cout<<s<<endl;
 }
+/*
+input : 5 2
+BGGBG
+output :  GGBGB 
+*/
