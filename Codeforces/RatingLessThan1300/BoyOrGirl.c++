@@ -8,13 +8,12 @@ int main(){
     int l=s.length();
     int count=0;
     sort(s.begin(), s.end());
-    for(int i=0;i<l;i++){
-        for(int j=i+1;j<l-1;j++){
-            if(s[i]!=s[j]){
-                count++;
-            }
-        }
-    }
+    for (int i = 0; i < l; i++) {
+		if (s[i] != s[i + 1])
+		{
+			count++;
+		}
+	}
     if(count%2==0){
         cout<<"CHAT WITH HER!";
     }
