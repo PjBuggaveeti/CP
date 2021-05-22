@@ -16,3 +16,7 @@ int main(){
     cout<<s;
     return 0;
 }
+/*
+input: 3+2+1
+output : 1+2+3
+*/
