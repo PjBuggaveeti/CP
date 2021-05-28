@@ -23,3 +23,10 @@ int main(){
     }
     return 0;
 }
+/*
+input : 
+7
+7 4 47 100 4 9 12
+output :
+Still Rozdil
+*/
