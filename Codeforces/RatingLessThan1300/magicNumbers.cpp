@@ -22,3 +22,7 @@ int main(){
     cout<<"YES";
     return 0;
 }
+/*
+input : 114114
+output :  YES
+*/
