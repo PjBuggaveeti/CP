@@ -1,28 +1,36 @@
 #include <iostream>
 #include <algorithm>
+#include <cstring>
 using namespace std;
 int main(){
-    int n;
-    cin>>n;
-    while(n>0){
-        if(n%1000==144){
-            n/=1000;
+    long long i,j,k;
+    string s;
+    bool flag=true;
+    cin>>s;
+    for(i=0;i<s.length();)
+    {
+        if(s[i]=='1' && s[i+1]=='4'  && s[i+2]=='4'){
+            i+=3;
         }
-        else if(n/100==14){
-            n/=100;
+        else if(s[i]=='1' && s[i+1]=='4'){
+            i+=2;
         }
-        else if(n%10==1){
-            n/=10;
+        else if(s[i]=='1'){
+            i++;
         }
         else{
-            cout<<"NO"<<endl;
-            return 0;
+            flag=false;
+            break;
         }
     }
-    cout<<"YES";
+    if(flag)
+        cout<<"YES";
+    else
+        cout<<"NO";
+
     return 0;
 }
 /*
-input : 114114
+input :114114
 output :  YES
 */
