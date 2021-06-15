@@ -3,6 +3,7 @@
         "*html": "html",
         "algorithm": "cpp",
         "limits": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "cstdlib": "cpp"
     }
 }
