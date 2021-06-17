@@ -29,7 +29,7 @@ int majorityElement(int arr[],int n){    //function to find the candidate for ma
     return res; 
 }
 int main(){
-    int arr[]={3,7,4,7,7,5};
+    int arr[]={3,7,7,7,7,5};
     int n=sizeof(arr)/sizeof(arr[n]);
     cout<<majorityElement(arr,n);
     return 0;
