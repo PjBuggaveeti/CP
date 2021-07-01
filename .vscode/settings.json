@@ -4,6 +4,7 @@
         "algorithm": "cpp",
         "limits": "cpp",
         "iostream": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "stack": "cpp"
     }
 }
