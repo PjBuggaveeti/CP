@@ -5,6 +5,7 @@
         "limits": "cpp",
         "iostream": "cpp",
         "cstdlib": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "xutility": "cpp"
     }
 }
